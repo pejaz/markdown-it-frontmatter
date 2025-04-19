@@ -1,0 +1,16 @@
+{
+  "name": "markdown-it-frontmatter",
+  "version": "1.0.0",
+  "description": "extract frontmatter.title to h1",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pejaz/markdown-it-frontmatter.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
