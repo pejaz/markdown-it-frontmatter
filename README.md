@@ -2,13 +2,13 @@
 
 this is a markdown-it plugin,it can extract frontmatter.title to h1 title
 
-## Install
+## install
 
 ```sh
 npm install vitepress-plugin-frontmatter --save
 ```
 
-## Use
+## use
 
 ```vite.config.ts
 import { titlePlugin } from 'vitepress-plugin-frontmatter'
@@ -28,11 +28,14 @@ export default defineConfig({
 ## example
 
 ```markdown
+// x.md
 ---
 title: H1 title // only set frontmatter.title
 ---
 
 ++ # H1 title // and auto add it
+
+<!-- other content -->
 ```
 
 ## License
