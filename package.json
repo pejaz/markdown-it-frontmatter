@@ -1,5 +1,5 @@
 {
-  "name": "markdown-it-frontmatter",
+  "name": "vitepress-plugin-frontmatter",
   "version": "1.0.0",
   "description": "extract frontmatter.title to h1",
   "main": "index.js",
@@ -7,10 +7,14 @@
     "type": "git",
     "url": "git://github.com/pejaz/markdown-it-frontmatter.git"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "markdown-it",
+    "frontmatter",
+    "vitepress",
+    "title",
+    "h1",
+    "plugin"
+  ],
+  "author": "pejaz",
+  "license": "MIT"
 }
