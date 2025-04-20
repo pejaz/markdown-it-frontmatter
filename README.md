@@ -11,7 +11,7 @@ npm install vitepress-plugin-frontmatter --save
 ## use
 
 ```vite.config.ts
-import { titlePlugin } from 'vitepress-plugin-frontmatter'
+import { fmTitlePlugin } from 'vitepress-plugin-frontmatter'
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
@@ -19,7 +19,7 @@ export default defineConfig({
 
   markdown: {
     config(md) {
-      md.use(titlePlugin)
+      md.use(fmTitlePlugin)
     },
   },
 })
@@ -40,4 +40,4 @@ title: H1 title // only set frontmatter.title
 
 ## License
 
-*markdown-it-frontmatter* is distributed under the MIT License - see the [LICENSE](LICENSE) file for details.
+*vitepress-plugin-frontmatter* is distributed under the MIT License - see the [LICENSE](LICENSE) file for details.
