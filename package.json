@@ -1,6 +1,6 @@
 {
   "name": "vitepress-plugin-frontmatter",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "extract frontmatter.title to h1",
   "main": "index.js",
   "repository": {
