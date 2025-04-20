@@ -1,3 +1,3 @@
-declare module 'markdown-it-frontmatter' {
-  export const titlePlugin: () => void
+declare module 'vitepress-plugin-frontmatter' {
+  export const fmTitlePlugin: () => void
 }

@@ -36,7 +36,7 @@ function hasH1Header (content) {
   return false
 }
 
-export const titlePlugin = md => {
+export const fmTitlePlugin = md => {
   md.core.ruler.before('normalize', 'title-to-h1', state => {
     try {
       // 1. 获取 frontmatter.title
