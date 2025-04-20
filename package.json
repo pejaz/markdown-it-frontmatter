@@ -1,11 +1,14 @@
 {
   "name": "vitepress-plugin-frontmatter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "extract frontmatter.title to h1",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/pejaz/vitepress-plugin-frontmatter.git"
+  },
+  "scripts": {
+    "test": "vitest"
   },
   "keywords": [
     "markdown-it",
@@ -16,5 +19,10 @@
     "plugin"
   ],
   "author": "pejaz",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@mdit-vue/plugin-frontmatter": "^2.1.4",
+    "markdown-it": "^14.1.0",
+    "vitest": "^3.1.1"
+  }
 }
